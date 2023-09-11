@@ -4,9 +4,30 @@ This is the official implementation of the paper " ASCON: Anatomy-aware Supervis
 ## Updates
 Sep, 2023: initial commit.
 
+## Approach
+![](https://github.com/hao1635/ASCON/edit/main/figs/ASCON.png)
+
 ## Data Preparation
 The 2016 AAPM-Mayo dataset can be downloaded from: [CT Clinical Innovation Center](https://ctcicblog.mayo.edu/2016-low-dose-ct-grand-challenge/)
-The 2020 AAPM-Mayo dataset can be downloaded from: [cancer imaging archive](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52758026)
+The 2020 AAPM-Mayo dataset can be downloaded from: [cancer imaging archive](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52758026) \br
+data structre
+```
+Mayo2016_2d/
+  |--train/
+      |--quarter_1mm/
+        train_quarter_00001.npy
+        train_quarter_00002.npy
+        train_quarter_00003.npy
+        ...
+      |--full_1mm/
+        train_full_00001.npy
+        train_full_00002.npy
+        train_full_00003.npy
+        ...
+  |--test/
+      |--quarter_1mm
+      |--full_1mm
+```
 
 ## Requirements
 ```
