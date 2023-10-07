@@ -41,7 +41,7 @@ Mayo2016_2d/
 ## Traning and & Inference
 Training
 ```
-python train.py  --name ASCON(experiment_name)   --model ASCON  --netG  ESAU  --dataroot /data/zhchen/Mayo2016_2d(path to images) --nce_layers  1,4 --layer_weight 1,1  --num_patches 32,512  --k_size 3,7 --lr 0.0002 --gpu_ids 6,7 --print_freq 25 --batch_size 1 --lr_policy cosine
+python train.py  --name ASCON(experiment_name)   --model ASCON  --netG  ESAU  --dataroot /data/zhchen/Mayo2016_2d(path to images) --nce_layers  1,4 --layer_weight 1,1  --num_patches 32,512  --k_size 3,7 --lr 0.0002 --gpu_ids 6,7 --print_freq 25 --batch_size 8 --lr_policy cosine
 ```
 
 Inference & testing
