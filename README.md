@@ -2,14 +2,14 @@
 This is the official implementation of the paper " ASCON: Anatomy-aware Supervised Contrastive Learning Framework for Low-dose CT Denoising" in 26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2023). The pre-print version can be found in [arxiv](https://arxiv.org/abs/2307.12225); camera-ready version will be soon released.
 
 ## Updates
-Sep, 2023: initial commit.
+Sep, 2023: initial commit.  
 Dec, 2023: update data proprocessing file: /data/data_preprocessing.ipynb.
 
 ## Approach
 ![](figs/ASCON.png)
 
 ## Data Preparation
-The 2016 AAPM-Mayo dataset can be downloaded from: [CT Clinical Innovation Center](https://ctcicblog.mayo.edu/2016-low-dose-ct-grand-challenge/) (B30 kernel)
+The 2016 AAPM-Mayo dataset can be downloaded from: [CT Clinical Innovation Center](https://ctcicblog.mayo.edu/2016-low-dose-ct-grand-challenge/) (B30 kernel)  
 The 2020 AAPM-Mayo dataset can be downloaded from: [cancer imaging archive](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52758026)   
 #### Dataset structre:
 ```
