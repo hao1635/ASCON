@@ -3,7 +3,7 @@ This is the official implementation of the paper " ASCON: Anatomy-aware Supervis
 
 ## Updates
 Sep, 2023: initial commit.
-Dec, 2023: update data proprocessing file
+Dec, 2023: update data proprocessing file: /data/data_preprocessing.ipynb.
 
 ## Approach
 ![](figs/ASCON.png)
